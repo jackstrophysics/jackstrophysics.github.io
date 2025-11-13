@@ -88,10 +88,23 @@ input, select, textarea {
   box-shadow: 0 0 10px rgba(255,255,255,0.3);
 }
 
-/* Add extra spacing before the "Learn More" button */
-#banner .more.scrolly {
-  margin-top: 2.5rem; /* increase or decrease as needed */
+/* Ensure all icons (SVG or font) appear uniform */
+ul.icons .icon-logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* optional: makes SVG white if needed */
 }
+
+/* Keep font-awesome icons visually aligned with the images */
+ul.icons .fa {
+  font-size: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
 
 /* Basic */
 
